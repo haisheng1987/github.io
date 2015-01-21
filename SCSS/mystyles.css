@@ -1,12 +1,83 @@
-body{
-    background: yellow;
-}
-section,form,
+body,form,
 header,ul,li,
 input,button,img,h1,h2{
-    color: red;
+    color: black;
     margin: 0;
     padding: 0;
     border: 0;
 }
-        
+body{
+    font-size: 62.5%;
+    background: white;
+}
+section.hero{
+    max-width: 100em;
+    margin:0 auto;
+    background-image: url(../pic1.jpg);
+    background-size:cover;
+}
+section.hero header img{
+    float:left;
+    width: 50px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+section.hero header ul{
+    float:right;
+    margin-right: 1.5em;
+    margin-left: 1em;
+}
+section.hero header ul li{
+    list-style: none;
+    float: left;
+    margin-left: 2em;
+    font-size: 1.4em;
+    color: white;
+    font-family: OpenSans;
+    font-weight:100;
+    margin-top: 1em;
+}
+section.hero header ul li:last-child{
+    border: 1px solid white;
+    padding: .3em;
+    margin-top:.7em;
+}
+section.hero h1{
+    clear:both;
+    font-size: 4em;
+    text-align: center;
+    font-family:OpenSans;
+    font-weight:100;
+}
+section.hero h2{
+    clear:both;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:OpenSans;
+    font-weight:100;
+    color: rgba(0,0,0,.4)
+}
+section.hero form{
+    text-align: center;
+    padding-bottom: 200px;
+    padding-top: 2em;
+}
+section.hero form input{
+    width: 20em;
+    height: 2em;
+    background: rgba(255,255,255,.5);
+    padding-left: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.15em;
+}
+
+section.hero form button{
+    background-color: rgb(50,34,11);
+    color: white;
+    height: 2em;
+    line-height: 2em;
+    font-size: 1.4em;
+    padding-left: 1em;
+    padding-right: 1em;
