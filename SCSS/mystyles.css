@@ -1,0 +1,12 @@
+body{
+    background: yellow;
+}
+section,form,
+header,ul,li,
+input,button,img,h1,h2{
+    color: red;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+        
